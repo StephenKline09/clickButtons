@@ -85,7 +85,8 @@ button[data-toggle="collapse"] {
   display: block;
   margin-left: -40px;
   font-family: PermanentMarker-Regular;
-  background: linear-gradient(white,rgb(175, 175, 175));
+  // background: linear-gradient(white,rgb(189, 94, 253));
+  background: linear-gradient(white,rgb(129, 248, 145));
   &:hover {
     background: linear-gradient(to right,pink,white,white,pink);
     cursor: pointer;
@@ -110,4 +111,20 @@ margin: 0;
 .nav-link {
   width: 210px;
   font-size: 24px;
+}
+
+.nav-link-soon {
+  width: 210px;
+  font-size: 24px;
+  background: linear-gradient(rgb(106, 224, 245),white) !important;
+}
+
+.comingSoonText {
+  font-family: PermanentMarker-Regular;
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+#comingSoon {
+  color: blue;
 }

@@ -35,9 +35,10 @@ p {
 }
 
 button {
+  width: fit-content;
   font-size: 20px;
   margin-top: 12px;
-  height: 40px;
+  // height: 40px;
 }
 
 button:hover {
@@ -47,6 +48,7 @@ button:hover {
 #color-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: lightgreen;
   height: 35%;
   width: 15%;
@@ -59,6 +61,7 @@ button:hover {
 #vanishing-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: rgb(135, 115, 250);
   height: 35%;
   width: 15%;
@@ -77,6 +80,7 @@ button:hover {
 
 #owen-wilson-container {
   display: flex;
+  align-items: center;
   flex-direction: column;
   background: rgb(236, 157, 157);
   height: 35%;
@@ -92,13 +96,13 @@ button:hover {
   max-height: 0px;
   min-width: 140px;
   min-height: 90px;
-  padding-left: 20%;
   padding-top: 1.5%;
 }
 
 #size-button-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: rgb(226, 241, 142);
   height: 35%;
   width: 15%;
@@ -112,6 +116,7 @@ button:hover {
 #video-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: rgb(102, 218, 233);
   height: 35%;
   width: 15%;
@@ -126,6 +131,7 @@ button:hover {
 #flood-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: rgb(233, 114, 78);
   height: 35%;
   width: 15%;
@@ -146,6 +152,7 @@ button:hover {
 #joke-generator-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: rgb(236, 200, 99);
   height: 35%;
   width: 15%;
@@ -168,6 +175,7 @@ button:hover {
 #random-container {
   display: flex;
   flex-direction: column;
+  // align-items: center;
   background: rgb(236, 136, 198);
   height: 35%;
   width: 15%;
@@ -175,7 +183,7 @@ button:hover {
   border-style: solid;
   border-radius: 5px;
   margin-right: 10px;
-  opacity: 40%;
+  opacity: 50%;
   // margin-top: -180px;
 }
 
@@ -188,6 +196,6 @@ button:hover {
 }
 
 .mat-raised-button {
-  background: linear-gradient(white, lightgrey);
+  background: linear-gradient(white, rgb(124, 253, 236));
 }
 

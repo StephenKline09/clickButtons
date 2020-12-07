@@ -5,9 +5,9 @@ const path = require('path');
 const app = express();
 
 // Serve only the static files form the dist directory
-clickButtons.use(express.static(__dirname + '/dist/clickButtons'));
+app.use(express.static(__dirname + '/dist/clickButtons'));
 
-clickButtons.get('/*', function(req,res) {
+app.get('/*', function(req,res) {
 
 res.sendFile(path.join(__dirname+'/dist/clickButtons/index.html'));
 });

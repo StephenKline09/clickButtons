@@ -1,3 +1,6 @@
+import { SnakeGameComponent } from './snake-game/snake-game.component';
+import { TetrisGameComponent } from './tetris-game/tetris-game.component';
+import { HangmanGameComponent } from './hangman-game/hangman-game.component';
 import { SnowboardingVideoComponent } from './movie-theater-videos/snowboarding-video/snowboarding-video.component';
 import { TicTacToeGameComponent } from './tic-tac-toe-game/tic-tac-toe-game.component';
 import { GameroomAppComponent } from './gameroom-app/gameroom-app.component';
@@ -39,7 +42,11 @@ const routes: Routes = [
   {path: 'calculator', component: CalculatorAppComponent},
   {path: 'gameroom', component: GameroomAppComponent},
   {path: 'ticTacToe', component: TicTacToeGameComponent},
-  {path: 'snowboarding', component: SnowboardingVideoComponent}
+  {path: 'snowboarding', component: SnowboardingVideoComponent},
+  {path: 'hangman', component: HangmanGameComponent},
+  {path: 'tetris', component: TetrisGameComponent},
+  {path: 'snake', component: SnakeGameComponent}
+
 ];
 
 @NgModule({

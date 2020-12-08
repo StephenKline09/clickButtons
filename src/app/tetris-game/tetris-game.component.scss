@@ -1,0 +1,16 @@
+.tetris-game-container {
+  display: flex;
+  flex-direction: column;
+  // align-content: center;
+  background: chartreuse;
+  height: 100vh;
+  width: 86vw;
+}
+
+.tetrisTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  font-weight: bold;
+  padding: 4%;
+}

@@ -3,10 +3,8 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 7.1%;
-  // padding-left: 1%;
-  height: 88vh;
+  height: 88.4vh;
   width: 86vw;
-  // background: rgb(134, 121, 121);
   background-image: url("/assets/images/randomPictures/mathematicsBackground.jpg");
   background-size: 100%;
 }
@@ -29,14 +27,14 @@
   flex-wrap: wrap;
   flex-direction: column;
   margin-left: 4%;
-  padding-right: 1.2%;
-  height: 75.3%;
+  padding-right: 1.4%;
+  height: 77%;
   width: 42%;
-  background: black;
+  background: radial-gradient(red,red,black);
   border-style: solid;
   border-width: 15px;
   border-color: red;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 0px 0px 40px 20px red;
 }
 
@@ -45,7 +43,7 @@
   justify-content: flex-end;
   height: 10%;
   width: 100%;
-  background: radial-gradient(white,green);
+  background: radial-gradient(white,yellow);
   font-size: 40px;
   padding: 10px;
   color: black;
@@ -56,11 +54,12 @@
   justify-content: flex-end;
   height: 60px;
   width: 100%;
-  background: radial-gradient(white, hotpink);
+  background: linear-gradient(yellow, orange);
   font-size: 30px;
   padding: 10px;
-  border-style: solid;
-  border-width: 2px;
+  // border-style: solid;
+  // border-width: 2px;
+  // border-bottom: black;
   color: black;
 }
 
@@ -73,18 +72,20 @@
   margin: 0;
   width: 25%;
   height: 20%;
-  background: rgb(235, 234, 234);
-  color: black;
+  background: radial-gradient(grey,black);
+  color: red;
   border-style: solid;
   border-width: 1px;
-  border-radius: 10px;
+  border-radius: 50px;
+  border-color: black;
   padding: 4%;
   font-size: 2rem;
   text-align: center;
   font-weight: bold;
+  font-size: 40px;
   cursor: pointer;
 }
 
 .numkey {
-  background: rgb(189, 188, 188);
+  background: radial-gradient(yellow,orange,rgb(7, 7, 7));
 }

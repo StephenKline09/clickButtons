@@ -12,7 +12,7 @@ export class CalculatorAppComponent implements OnInit {
   operand1: number
   operand2: number
   operator = ''
-  calculationString = '' //denotes the operation being performed
+  calculationString = '' //operation being performed
   answered = false //checks if a solution has been processed
   operatorSet = false
 
@@ -76,4 +76,7 @@ export class CalculatorAppComponent implements OnInit {
     this.answered = true;
   }
 
+  allClear() {
+    location.reload();
+  }
 }

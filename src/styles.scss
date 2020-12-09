@@ -63,6 +63,18 @@ body { margin: 0px; padding: 0px; font-family: Roboto, "Helvetica Neue", sans-se
     font-family: Dark_Future_Italic;
     src: url(/assets/fonts/Dark_Future_Italic.ttf) format("opentype");
   }
+  @font-face {
+    font-family: Futured;
+    src: url(/assets/fonts/Futured.TTF) format("opentype");
+  }
+  @font-face {
+    font-family: karma_future;
+    src: url(/assets/fonts/karma_future.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: karma_suture;
+    src: url(/assets/fonts/karma_suture.ttf) format("opentype");
+  }
 
 
   *:focus {

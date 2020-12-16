@@ -34,7 +34,7 @@ export class CalculatorAppComponent implements OnInit {
       this.operator = key;
       this.operatorSet = true;
     }
-    if (this.mainText.length === 10) {
+    if (this.mainText.length === 15) {
       return;
     }
     this.mainText += key;
@@ -47,14 +47,14 @@ export class CalculatorAppComponent implements OnInit {
       this.subText = this.mainText;
       this.mainText = (this.operand1 / this.operand2).toString();
       this.subText = this.calculationString;
-      if (this.mainText.length > 9) {
+      if (this.mainText.length > 14) {
         this.mainText = this.mainText.substr(0, 9);
       }
     } else if (this.operator === 'x') {
       this.subText = this.mainText;
       this.mainText = (this.operand1 * this.operand2).toString();
       this.subText = this.calculationString;
-      if (this.mainText.length > 9) {
+      if (this.mainText.length > 14) {
         this.mainText = 'ERROR';
         this.subText = 'Range Exceeded';
       }
@@ -66,7 +66,7 @@ export class CalculatorAppComponent implements OnInit {
       this.subText = this.mainText;
       this.mainText = (this.operand1 + this.operand2).toString();
       this.subText = this.calculationString;
-      if (this.mainText.length > 9) {
+      if (this.mainText.length > 14) {
         this.mainText = 'ERROR';
         this.subText = 'Range Exceeded';
       }

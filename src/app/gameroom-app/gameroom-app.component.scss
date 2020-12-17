@@ -6,22 +6,24 @@
 }
 
 #choose-game-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1;
   height: 40%;
   font-family: Gameshow;
-  font-size: 160px;
-  color: white;
-  text-shadow: rgb(225, 0, 255) 5px 10px 10px;
-  position: absolute;
-  top: 22%;
-  left: 21%;
+  font-size: 200px;
+  color: purple;
+  text-shadow: rgb(225, 0, 255) 3px 10px 10px;
 }
 
 .gameChoices {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  height: 10%;
   padding: 5%;
-  padding-top: 40%;
+  padding-top: 15%;
 }
 
 .gamePaths {
@@ -35,4 +37,9 @@
   font-family: Lobster-Regular;
   font-size: 60px;
   font-weight: bold;
+  &:hover {
+    background: radial-gradient(yellow,yellow,green);
+    box-shadow: 0px 2px 80px 40px cyan;
+    transition: all 0.6s;
+  }
 }

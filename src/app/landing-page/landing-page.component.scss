@@ -1,6 +1,7 @@
-#landingPageContainer {
+.landingPageContainer {
   display: flex;
   flex-wrap: wrap;
+  // justify-content: flex-start;
   background-image: url("/assets/images/randomPictures/welcomePinkAndBlue.jpg");
   background-size: 100%;
   height: 100vh;

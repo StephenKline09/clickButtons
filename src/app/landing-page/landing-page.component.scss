@@ -21,6 +21,15 @@ h1 {
   font-size: 60px;
   padding-left: 4.5%;
   padding-top: 0.8%;
+  animation-direction: normal;
 }
 
+@keyframes firstAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 

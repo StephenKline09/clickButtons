@@ -1,0 +1,92 @@
+.translator-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 86vw;
+  background: rgb(226, 248, 29);
+}
+
+.translator-title {
+  font-family: DJB_Ransom_Note_Messy;
+  height: 8%;
+  width: 90%;
+  padding-top: 5%;
+  padding-left: 5%;
+  font-size: 850%;
+}
+
+.inputANDoutput-container {
+  display: flex;
+  flex-direction: row;
+  // justify-content: center;
+  justify-content: space-between;
+  // align-items: center;
+  padding: 2%;
+  height: 55%;
+  width: 82.5vw;
+  background-color: rgb(74, 135, 250);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgreen;
+  height: 80%;
+  width: 45%;
+  border-color: black;
+  border-style: solid;
+}
+
+#inputTitle {
+  font-size: 150%;
+}
+
+#inputTextBox {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  height: 70%;
+  width: 90%;
+  margin-top: 3%;
+  padding: 1%;
+  font-size: 25px;
+}
+
+.output-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(61, 248, 208);
+  height: 80%;
+  width: 45%;
+  border-color: black;
+  border-style: solid;
+}
+
+#outputTitle {
+  font-size: 150%;
+}
+
+#outputTextBox {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  height: 70%;
+  width: 90%;
+  margin-top: 3%;
+  padding: 1%;
+  font-size: 25px;
+}
+
+.languageChoices-container {
+  padding: 2%;
+  font-size: 50px;
+}
+
+mat-divider {
+  display: flex;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+}

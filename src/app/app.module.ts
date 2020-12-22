@@ -36,6 +36,7 @@ import { SnowboardingVideoComponent } from './movie-theater-videos/snowboarding-
 import { SnakeGameComponent } from './snake-game/snake-game.component';
 import { TetrisGameComponent } from './tetris-game/tetris-game.component';
 import { HangmanGameComponent } from './hangman-game/hangman-game.component';
+import { TranslatorAppComponent } from './translator-app/translator-app.component';
 // import { YouTubePlayer, YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
@@ -66,6 +67,7 @@ import { HangmanGameComponent } from './hangman-game/hangman-game.component';
     SnakeGameComponent,
     TetrisGameComponent,
     HangmanGameComponent,
+    TranslatorAppComponent,
   ],
   imports: [
     BrowserModule,

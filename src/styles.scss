@@ -79,7 +79,14 @@ app-landing-page {
     font-family: karma_suture;
     src: url(/assets/fonts/karma_suture.ttf) format("opentype");
   }
-
+  @font-face {
+    font-family: DJB_Ransom_Note_Messy;
+    src: url(/assets/fonts/DJB_Ransom_Note_Messy.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: DJB_Ransom_Note;
+    src: url(/assets/fonts/DJB_Ransom_Note.ttf) format("opentype");
+  }
 
   *:focus {
     outline: 0 !important;

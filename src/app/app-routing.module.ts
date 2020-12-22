@@ -1,3 +1,4 @@
+import { TranslatorAppComponent } from './translator-app/translator-app.component';
 import { SnakeGameComponent } from './snake-game/snake-game.component';
 import { TetrisGameComponent } from './tetris-game/tetris-game.component';
 import { HangmanGameComponent } from './hangman-game/hangman-game.component';
@@ -45,7 +46,8 @@ const routes: Routes = [
   {path: 'snowboarding', component: SnowboardingVideoComponent},
   {path: 'hangman', component: HangmanGameComponent},
   {path: 'tetris', component: TetrisGameComponent},
-  {path: 'snake', component: SnakeGameComponent}
+  {path: 'snake', component: SnakeGameComponent},
+  {path: 'translator', component: TranslatorAppComponent}
 
 ];
 

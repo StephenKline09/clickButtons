@@ -43,3 +43,11 @@
     transition: all 0.6s;
   }
 }
+
+#theImage {
+  display: flex;
+  flex-flow: row wrap;
+  height: 400px;
+  width: 400px;
+  background-repeat: none;
+}

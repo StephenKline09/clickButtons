@@ -4,6 +4,10 @@ html, body { height: 100%; }
 body { margin: 0px; padding: 0px; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
+app-landing-page {
+  width: 100%;
+}
+
 @font-face {
     font-family: GreatVibes-Regular;
     src: url(/assets/fonts/GreatVibes-Regular.ttf) format("opentype");

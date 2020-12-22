@@ -3,9 +3,9 @@
   flex-wrap: wrap;
   // justify-content: flex-start;
   background-image: url("/assets/images/randomPictures/welcomePinkAndBlue.jpg");
-  background-size: 100%;
+  background-size: 95%;
   height: 100vh;
-  min-width: 86vw;
+  // width: 100%;
 }
 
 h1 {
@@ -17,6 +17,7 @@ h1 {
 
 
 #clickHereText {
+  height: 100px;
   color: rgb(250, 7, 141);
   font-family: PermanentMarker-Regular;
   font-size: 60px;
